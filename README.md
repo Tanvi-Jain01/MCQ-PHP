@@ -34,6 +34,7 @@
 ## Enter your credentails and you will be unregistered.
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/e4f93765-1387-4b30-afec-d3e719692b49)
 
+---
 
 # Database
 ### Register schema: 
@@ -43,6 +44,8 @@
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/75633612-1d58-497c-b0a3-39e954668461)
 ### Result schema:
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/d4dc7bb2-d5a1-4212-8bbe-110047a56d40)
+
+---
 
 # Testacases:
 
@@ -63,6 +66,8 @@
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/09963491-53ae-40cf-9416-5219ca6ed111)
 
 
+---
+
 
 # Security
 ## Sanitizing input
@@ -73,6 +78,7 @@
 
 # POST method
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/0e0dd181-fcd7-42f3-bd00-03f90983329e)
+
 ## Why POST Method?
 Some notes on POST requests:
 
@@ -82,6 +88,9 @@ POST requests cannot be bookmarked
 POST requests have no restrictions on data length
 Data is not displayed in the URL
 Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted)
+
+---
+
 
 # Other Threats:
 ## SQL Injection:
@@ -99,8 +108,12 @@ One of the best ways to prevent SQL injection is to use prepared statements or p
 ### 3) Give minimum access to users.
 ### 4) Never trust User Inputs.
 
+---
+
 # How to test your web design for XSS and SQL injection?
 One of the easiest ways to test your web design is to use a tool like OWASP ZAP, which is a free and open source web application security scanner that can detect and exploit XSS and SQL injection flaws. You can also use manual testing techniques, such as entering malicious input in the web forms or the URL, and observing the response of the web application.
+
+---
 
 # Which's safe, Session or Cookies??
 A session stores the variables and their values within a file in a temporary directory on the server.
@@ -113,6 +126,8 @@ The maximum size of the browser's cookies is 4 KB.
 
 Sessions are more secured compared to cookies, as they save data in encrypted form.
 Cookies are not secure, as data is stored in a text file, and if any unauthorized user gets access to our system, he can temper the data.
+
+---
 
 # Future Aim
 ### 1) Include time of Attempts
