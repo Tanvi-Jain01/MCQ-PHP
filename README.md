@@ -71,11 +71,24 @@
 
 # Other Threats:
 ## SQL Injection:
+SQL injection is another technique that exploits a web application's vulnerability to execute malicious SQL statements on the server-side database. These statements can manipulate, delete, or extract data from the database, or even gain access to the server itself. SQL injection can occur when a web application accepts user input that is not properly sanitized or parameterized, and then uses it to construct SQL queries.
 
-## XSS
+## How to prevent SQL injection?
+One of the best ways to prevent SQL injection is to use prepared statements or parameterized queries, which separate the user input from the SQL logic and prevent any malicious input from being interpreted as part of the query. This means that any potentially harmful characters, such as ', ;, or --, are treated as literal values and not as SQL commands. Another way to prevent SQL injection is to use stored procedures, which are predefined SQL statements that are stored on the server and can be invoked by the web application with specific parameters.
+
+## XSS:
+ XSS stands for cross-site scripting, a technique that allows malicious actors to inject client-side scripts into web pages that are viewed by other users. These scripts can steal cookies, session tokens, or other sensitive information, or redirect users to phishing or malware sites. XSS can occur when a web application accepts user input that is not properly validated or encoded, and then displays it as part of the web page.
 
 # Prevention:
 ## 1) Sanitize the user input.
 ## 2) Encryption of database names and columns while deployment.
 ## 3) Give minimum access to users.
 ## 4) Never trust User Inputs.
+
+# Which's safe, Session or Cookies??
+
+
+
+# Future Aim
+## 1) Include time of Attempts
+## 2) Include captchas
