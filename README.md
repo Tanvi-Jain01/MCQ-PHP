@@ -26,18 +26,23 @@
 ## Start the Test
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/a89176f2-b572-4b37-8755-a4f6120c0c8e)
 
-# Get result instantly
+## Get result instantly
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/2a984f38-04af-45fe-8106-268406fd15c6)
 
-## Unregister
-# Enter your credentails and you will be unregistered.
+# Unregister
+## Enter your credentails and you will be unregistered.
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/e4f93765-1387-4b30-afec-d3e719692b49)
 
 
-## Database
+# Database
+### Register schema: 
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/41c1dab2-416d-4838-97c4-1f1704a94b3d)
+### feedback schema:
+![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/75633612-1d58-497c-b0a3-39e954668461)
+### Result schema:
+![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/d4dc7bb2-d5a1-4212-8bbe-110047a56d40)
 
-## Testacases
+# Testacases:
 
 ## Registration
 # If email already exists
@@ -65,30 +70,48 @@
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/41c1dab2-416d-4838-97c4-1f1704a94b3d)
 
 # POST method
-## Why POST Method?
-
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/0e0dd181-fcd7-42f3-bd00-03f90983329e)
+## Why POST Method?
+Some notes on POST requests:
+
+POST requests are never cached
+POST requests do not remain in the browser history
+POST requests cannot be bookmarked
+POST requests have no restrictions on data length
+Data is not displayed in the URL
+Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted)
 
 # Other Threats:
 ## SQL Injection:
 SQL injection is another technique that exploits a web application's vulnerability to execute malicious SQL statements on the server-side database. These statements can manipulate, delete, or extract data from the database, or even gain access to the server itself. SQL injection can occur when a web application accepts user input that is not properly sanitized or parameterized, and then uses it to construct SQL queries.
 
 ## How to prevent SQL injection?
-One of the best ways to prevent SQL injection is to use prepared statements or parameterized queries, which separate the user input from the SQL logic and prevent any malicious input from being interpreted as part of the query. This means that any potentially harmful characters, such as ', ;, or --, are treated as literal values and not as SQL commands. Another way to prevent SQL injection is to use stored procedures, which are predefined SQL statements that are stored on the server and can be invoked by the web application with specific parameters.
+One of the best ways to prevent SQL injection is to use prepared statements or parameterized queries, which separate the user input from the SQL logic and prevent any malicious input from being interpreted as part of the query. This means that any potentially harmful characters, such as ', ;, or --, are treated as literal values and not as SQL commands. Another way to prevent SQL injection is to use stored procedures, which are predefined SQL statements that are stored on the server and can be invoked by the web application with specific parameters.Another way to prevent SQL injections is to use an allowlist for allowed values
 
 ## XSS:
  XSS stands for cross-site scripting, a technique that allows malicious actors to inject client-side scripts into web pages that are viewed by other users. These scripts can steal cookies, session tokens, or other sensitive information, or redirect users to phishing or malware sites. XSS can occur when a web application accepts user input that is not properly validated or encoded, and then displays it as part of the web page.
 
 # Prevention:
-## 1) Sanitize the user input.
-## 2) Encryption of database names and columns while deployment.
-## 3) Give minimum access to users.
-## 4) Never trust User Inputs.
+### 1) Sanitize the user input.
+### 2) Encryption of database names and columns while deployment.
+### 3) Give minimum access to users.
+### 4) Never trust User Inputs.
+
+# How to test your web design for XSS and SQL injection?
+One of the easiest ways to test your web design is to use a tool like OWASP ZAP, which is a free and open source web application security scanner that can detect and exploit XSS and SQL injection flaws. You can also use manual testing techniques, such as entering malicious input in the web forms or the URL, and observing the response of the web application.
 
 # Which's safe, Session or Cookies??
+A session stores the variables and their values within a file in a temporary directory on the server.
+Cookies are stored on the user's computer as a text file.
+The session ends when the user logout from the application or closes his web browser.
+Cookies end on the lifetime set by the user.
 
+We can store as much data as we want within a session, but there is a maximum memory limit, which a script can use at one time, and it is 128 MB.
+The maximum size of the browser's cookies is 4 KB.
 
+Sessions are more secured compared to cookies, as they save data in encrypted form.
+Cookies are not secure, as data is stored in a text file, and if any unauthorized user gets access to our system, he can temper the data.
 
 # Future Aim
-## 1) Include time of Attempts
-## 2) Include captchas
+### 1) Include time of Attempts
+### 2) Include captchas
