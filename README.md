@@ -1,10 +1,11 @@
 # MCQ-PHP
 
+# User Interface:
 ## Homescreen
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/7aa391b9-91ff-415a-949e-a19f3a2f1d49)
 
 ## Registration
-
+![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/bcb1a28b-391d-4e49-ac80-c50cb509c165)
 ## After registration
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/8df2ac22-8c9c-4769-98e1-ba18e2093e9c)
 
@@ -36,7 +37,8 @@
 
 # Database
 ### Register schema: 
-![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/41c1dab2-416d-4838-97c4-1f1704a94b3d)
+![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/c5be8da4-54fb-4bc5-b689-656b800ac4d0)
+
 ### feedback schema:
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/75633612-1d58-497c-b0a3-39e954668461)
 ### Result schema:
@@ -44,17 +46,17 @@
 
 # Testacases:
 
-## Registration
-# If email already exists
+# Registration
+## If email already exists
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/bcb1a28b-391d-4e49-ac80-c50cb509c165)
 
-# if password doesn't match
+## if password doesn't match
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/5296620d-6bf8-4676-85e3-a1b070882f4c)
 
-# password should be 8 charachter
+## password should be 8 charachter
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/f551f357-2f02-49f7-9cc9-c79f32969ec6)
 
-## Testcases in Login:
+# Testcases in Login:
 ![image](https://github.com/Tanvi-Jain01/MCQ-PHP/assets/123053700/84a6873a-91ad-4726-a801-db6e00e538cd)
 
 ## Testcases in Checking marks
